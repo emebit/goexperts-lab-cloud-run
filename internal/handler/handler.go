@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"Labs/goexperts-lab-cloud-run/internal/models"
-	"Labs/goexperts-lab-cloud-run/internal/services"
+	"github.com/emebit/goexperts-lab-cloud-run/internal/models"
+	"github.com/emebit/goexperts-lab-cloud-run/internal/services"
 	"encoding/json"
 	"fmt"
 	"net/http"
