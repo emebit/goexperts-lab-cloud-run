@@ -38,7 +38,7 @@
 package main
 
 import (
-	"Labs/goexperts-lab-cloud-run/internal/handler"
+	"https://github.com/emebit/goexperts-lab-cloud-run/internal/handler"
 	"fmt"
 	"log"
 	"net/http"
