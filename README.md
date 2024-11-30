@@ -24,17 +24,26 @@ Um sistema de consulta de temperatura por CEP.
 
 3. Fazer a requisição que está no arquivo http/test.http. O resultado será parecido com o seguinte:
    
-    HTTP/1.1 200 OK 
-    Content-Type: application/json 
-    Date: Wed, 06 Nov 2024 00:14:31 GMT 
-    Content-Length: 59 
+    HTTP/1.1 200 OK
 
+    Content-Type: application/json
+
+    Date: Sat, 30 Nov 2024 21:42:25 GMT
+
+    Content-Length: 71
+
+    Connection: close
+    
     {
-    "temp_C": 20.2,
-    "temp_F": 68.36,
-    "temp_K": 293.34999999999997
-    } 
 
+     "temp_C": 22.2,
+
+      "temp_F": 71.96000000000001,
+
+      "temp_K": 295.34999999999997
+
+    }
+   
 ### Link cloud
 
 https://goexperts-lab-cloud-run-272371299955.us-central1.run.app/cep/82015680
@@ -52,14 +61,24 @@ Você pode construir uma imagem docker e executar a aplicação.
     docker run -p 8080:8080  goexperts-lab-cloud-run 
 
 3. Fazer a requisição que está no arquivo http/test.http. O resultado será o similar ao seguinte:
+   
+
     HTTP/1.1 200 OK
+
     Content-Type: application/json
+
     Date: Sat, 30 Nov 2024 21:42:25 GMT
+
     Content-Length: 71
+
     Connection: close
     
     {
-      "temp_C": 22.2,
+
+     "temp_C": 22.2,
+
       "temp_F": 71.96000000000001,
+
       "temp_K": 295.34999999999997
+
     }
