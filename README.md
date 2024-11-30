@@ -23,10 +23,11 @@ Um sistema de consulta de temperatura por CEP.
     Server is running 8080 
 
 3. Fazer a requisição que está no arquivo http/test.http. O resultado será parecido com o seguinte:
-    HTTP/1.1 200 OK
-    Content-Type: application/json
-    Date: Wed, 06 Nov 2024 00:14:31 GMT
-    Content-Length: 59
+   
+    HTTP/1.1 200 OK 
+    Content-Type: application/json 
+    Date: Wed, 06 Nov 2024 00:14:31 GMT 
+    Content-Length: 59 
 
     {
     "temp_C": 20.2,
